@@ -1,0 +1,14 @@
+[package]
+name = "beesag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.54", features = ["derive"] }
+async-graphql = "7.0.17"
+async-graphql-axum = "7.0.17"
+axum = { version = "0.8.7", features = ["form", "json"] }
+serde = "1.0.228"
+serde_json = "1.0.145"
+sqlx = { version = "0.8.6", features = ["postgres"] }
+tokio = { version = "1.48.0", features = ["full"] }
