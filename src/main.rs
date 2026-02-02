@@ -4,11 +4,15 @@ use axum::{Router, response::Html, routing::get};
 use serde::Deserialize;
 mod amelgtf;
 mod amelseq;
+mod args;
 mod bimp;
 mod bimpseq;
 mod data;
 mod database;
+mod genome;
 mod graphql;
+mod machine;
+mod smartcore;
 
 /*
  Gaurav Sablok

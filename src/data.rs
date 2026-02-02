@@ -51,3 +51,24 @@ pub struct BimpSeq {
     pub mrna: String,
     pub mrnaseq: String,
 }
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct GenomeSeq {
+    pub pathfile: String,
+}
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct Fasta {
+    pub name: String,
+    pub seq: String,
+}
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct Pathfile {
+    pub pathname: String,
+}
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct CSV {
+    pub pathcsv: String,
+}

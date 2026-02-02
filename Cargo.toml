@@ -18,3 +18,4 @@ dotenvy = "0.15.7"
 handlebars = { version = "6.4.0", features = ["walkdir"] }
 cmd_lib = "2.0.0"
 figlet-rs = "0.1.5"
+smartcore = { version = "0.4.9", features = ["ndarray-bindings"] }
