@@ -9,9 +9,11 @@ mod bimp;
 mod bimpseq;
 mod data;
 mod database;
+mod filtergenome;
 mod genome;
 mod graphql;
 mod machine;
+mod neural;
 mod smartcore;
 
 /*

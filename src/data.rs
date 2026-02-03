@@ -72,3 +72,9 @@ pub struct Pathfile {
 pub struct CSV {
     pub pathcsv: String,
 }
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct GenomeFasta {
+    pub pathfile: String,
+    pub expressionfile: String,
+}
