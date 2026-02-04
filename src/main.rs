@@ -5,6 +5,7 @@ use serde::Deserialize;
 mod amelgtf;
 mod amelseq;
 mod args;
+mod beesag;
 mod bimp;
 mod bimpseq;
 mod data;

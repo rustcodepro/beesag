@@ -78,3 +78,9 @@ pub struct GenomeFasta {
     pub pathfile: String,
     pub expressionfile: String,
 }
+
+#[derive(Debug, Clone, PartialOrd, PartialEq)]
+pub struct Protein {
+    pub proteinfilename: String,
+    pub expression: String,
+}

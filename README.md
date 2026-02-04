@@ -11,6 +11,8 @@
 - 3 Feb adding the Neural classification
 - Neural autoencoder and neural classification for bees infection and swarming rates.
 
+- 4 Feb added the protein machine learning.
+
 - 6 Feb
 - Final release and crate pushing. 
 
